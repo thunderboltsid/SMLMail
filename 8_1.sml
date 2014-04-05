@@ -98,9 +98,9 @@ fun mail(host, port, msg, senderID, sender, recepient, subject, content) =
 		Socket.close(s2)
 	end;
 
-val host = "exchange.jacobs-university.de";
+val host = "email.mailserver.com";
 val port = 25;
-val msg = "telnet exchange.jacobs-university.de 25\r\n";
+val msg = "telnet email.mailserver.com 25\r\n";
 val senderID = "helo mailhost.website.com\r\n";
 val sender = "mail from: email@website.com\r\n";
 val recepient = "rcpt to: recepient@email.com\r\n";
