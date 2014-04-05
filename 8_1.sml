@@ -101,11 +101,11 @@ fun mail(host, port, msg, senderID, sender, recepient, subject, content) =
 val host = "exchange.jacobs-university.de";
 val port = 25;
 val msg = "telnet exchange.jacobs-university.de 25\r\n";
-val senderID = "helo mailhost.brazzers.com\r\n";
-val sender = "mail from: subscriptions@brazzers.com\r\n";
-val recepient = "rcpt to: f.stankovski@jacobs-university.de\r\n";
+val senderID = "helo mailhost.website.com\r\n";
+val sender = "mail from: email@website.com\r\n";
+val recepient = "rcpt to: recepient@email.com\r\n";
 val subject = "subject: Your subscription is about to expire.\r\n\n";
-val content = "Dear Customer,\n\nYour annual subscription is about to expire soon. As per the agreement, on April 11th, 2014, we will renew your subscription for EUR 9,99 per month for another year. However, in the unfortunate event that you wish to cancel your subscription, please contact the Brazzers customer support by replying to this email.\n\n Happy Brazzering,\n The Brazzers Team\r\n";
+val content = "Message Content\r\n";
 
 mail(host, port, msg, senderID, sender, recepient, subject, content);
 
