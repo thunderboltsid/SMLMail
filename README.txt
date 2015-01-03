@@ -1,4 +1,4 @@
-This is a Standard ML program for sending email from one email address to another email address without requiring the email ID of  the sender. 
+This is a Standard ML program for sending email from one email address to another email address without requiring the password for email ID of the sender. 
 
 sender : The email ID you want to send the email from
 recepient : The email ID you want to send the email to
